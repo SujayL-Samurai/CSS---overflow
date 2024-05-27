@@ -1,0 +1,28 @@
+overflow= property that sets the desired behavior when
+content does not fit in the parent element box(overflow)
+
+overflow: visible
+overflow: hidden
+overflow: auto
+overflow: clip
+overflow: scroll
+
+
+<!DOCTYPE html>
+<html>
+<body>
+<link rel="stylesheet" href="style.css">
+		
+		<div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis voluptas commodi, architecto consequatur accusamus aspernatur laudantium, magni molestias dolorum molestiae ex? Tempore voluptatibus temporibus nesciunt eaque culpa, et laborum fuga!</div>
+		
+		</head>
+	</body>
+</html>
+
+style.css
+
+div{
+    border: 2px solid;
+    height: 75px;
+    overflow: visible;
+}
